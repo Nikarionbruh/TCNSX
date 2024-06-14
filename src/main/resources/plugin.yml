@@ -1,0 +1,17 @@
+name: SaverItemsExpansion
+version: '${project.version}'
+main: test.saveritemsexpansion.SaverItemsExpansion
+api-version: '1.20'
+commands:
+  ItemSelector:
+    Description: to select the Saver Items
+    Usage: /ItemSelector
+  CheckABS:
+    Description: to check absorption hearts values
+    usage: /CheckABS
+  CheckHealth:
+    Description: to check hearts mob values
+    usage: /CheckHealth
+  SelfHealth:
+    Description: to check hearts personal values (for reference and debugging)
+    usage: /SelfHealth
